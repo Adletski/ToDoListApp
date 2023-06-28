@@ -17,6 +17,7 @@
 		602CCA332A4C21ED007F8AD6 /* ToDoListAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA322A4C21ED007F8AD6 /* ToDoListAppUITestsLaunchTests.swift */; };
 		602CCA482A4C290F007F8AD6 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA472A4C290F007F8AD6 /* ToDoItem.swift */; };
 		602CCA4A2A4C2A0E007F8AD6 /* FileCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA492A4C2A0D007F8AD6 /* FileCache.swift */; };
+		602CCA4C2A4C30D2007F8AD6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA4B2A4C30D2007F8AD6 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		602CCA322A4C21ED007F8AD6 /* ToDoListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		602CCA472A4C290F007F8AD6 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		602CCA492A4C2A0D007F8AD6 /* FileCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCache.swift; sourceTree = "<group>"; };
+		602CCA4B2A4C30D2007F8AD6 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		602CCA452A4C2786007F8AD6 /* DetailsModule */ = {
 			isa = PBXGroup;
 			children = (
+				602CCA4B2A4C30D2007F8AD6 /* DetailsViewController.swift */,
 			);
 			path = DetailsModule;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				602CCA482A4C290F007F8AD6 /* ToDoItem.swift in Sources */,
 				602CCA4A2A4C2A0E007F8AD6 /* FileCache.swift in Sources */,
 				602CCA122A4C21EA007F8AD6 /* SceneDelegate.swift in Sources */,
+				602CCA4C2A4C30D2007F8AD6 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
