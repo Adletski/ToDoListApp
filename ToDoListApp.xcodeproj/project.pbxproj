@@ -18,6 +18,8 @@
 		602CCA482A4C290F007F8AD6 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA472A4C290F007F8AD6 /* ToDoItem.swift */; };
 		602CCA4A2A4C2A0E007F8AD6 /* FileCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA492A4C2A0D007F8AD6 /* FileCache.swift */; };
 		602CCA4C2A4C30D2007F8AD6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA4B2A4C30D2007F8AD6 /* DetailsViewController.swift */; };
+		602CCA4E2A4C4A19007F8AD6 /* ConfigurationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA4D2A4C4A19007F8AD6 /* ConfigurationsView.swift */; };
+		602CCA502A4C5F86007F8AD6 /* CalendarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA4F2A4C5F86007F8AD6 /* CalendarProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		602CCA472A4C290F007F8AD6 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		602CCA492A4C2A0D007F8AD6 /* FileCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCache.swift; sourceTree = "<group>"; };
 		602CCA4B2A4C30D2007F8AD6 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		602CCA4D2A4C4A19007F8AD6 /* ConfigurationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationsView.swift; sourceTree = "<group>"; };
+		602CCA4F2A4C5F86007F8AD6 /* CalendarProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				602CCA4B2A4C30D2007F8AD6 /* DetailsViewController.swift */,
+				602CCA4D2A4C4A19007F8AD6 /* ConfigurationsView.swift */,
+				602CCA4F2A4C5F86007F8AD6 /* CalendarProvider.swift */,
 			);
 			path = DetailsModule;
 			sourceTree = "<group>";
@@ -332,7 +338,9 @@
 				602CCA482A4C290F007F8AD6 /* ToDoItem.swift in Sources */,
 				602CCA4A2A4C2A0E007F8AD6 /* FileCache.swift in Sources */,
 				602CCA122A4C21EA007F8AD6 /* SceneDelegate.swift in Sources */,
+				602CCA502A4C5F86007F8AD6 /* CalendarProvider.swift in Sources */,
 				602CCA4C2A4C30D2007F8AD6 /* DetailsViewController.swift in Sources */,
+				602CCA4E2A4C4A19007F8AD6 /* ConfigurationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
