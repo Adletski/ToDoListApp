@@ -15,6 +15,7 @@
 		602CCA272A4C21ED007F8AD6 /* ToDoListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA262A4C21ED007F8AD6 /* ToDoListAppTests.swift */; };
 		602CCA312A4C21ED007F8AD6 /* ToDoListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA302A4C21ED007F8AD6 /* ToDoListAppUITests.swift */; };
 		602CCA332A4C21ED007F8AD6 /* ToDoListAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA322A4C21ED007F8AD6 /* ToDoListAppUITestsLaunchTests.swift */; };
+		602CCA482A4C290F007F8AD6 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA472A4C290F007F8AD6 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		602CCA2C2A4C21ED007F8AD6 /* ToDoListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		602CCA302A4C21ED007F8AD6 /* ToDoListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListAppUITests.swift; sourceTree = "<group>"; };
 		602CCA322A4C21ED007F8AD6 /* ToDoListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		602CCA472A4C290F007F8AD6 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		602CCA432A4C275B007F8AD6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				602CCA462A4C28FC007F8AD6 /* Models */,
 				602CCA452A4C2786007F8AD6 /* DetailsModule */,
 				602CCA442A4C277A007F8AD6 /* MainModule */,
 			);
@@ -178,6 +181,14 @@
 			children = (
 			);
 			path = DetailsModule;
+			sourceTree = "<group>";
+		};
+		602CCA462A4C28FC007F8AD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				602CCA472A4C290F007F8AD6 /* ToDoItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +323,7 @@
 			files = (
 				602CCA142A4C21EA007F8AD6 /* ViewController.swift in Sources */,
 				602CCA102A4C21EA007F8AD6 /* AppDelegate.swift in Sources */,
+				602CCA482A4C290F007F8AD6 /* ToDoItem.swift in Sources */,
 				602CCA122A4C21EA007F8AD6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
