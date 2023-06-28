@@ -16,6 +16,7 @@
 		602CCA312A4C21ED007F8AD6 /* ToDoListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA302A4C21ED007F8AD6 /* ToDoListAppUITests.swift */; };
 		602CCA332A4C21ED007F8AD6 /* ToDoListAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA322A4C21ED007F8AD6 /* ToDoListAppUITestsLaunchTests.swift */; };
 		602CCA482A4C290F007F8AD6 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA472A4C290F007F8AD6 /* ToDoItem.swift */; };
+		602CCA4A2A4C2A0E007F8AD6 /* FileCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602CCA492A4C2A0D007F8AD6 /* FileCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		602CCA302A4C21ED007F8AD6 /* ToDoListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListAppUITests.swift; sourceTree = "<group>"; };
 		602CCA322A4C21ED007F8AD6 /* ToDoListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		602CCA472A4C290F007F8AD6 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		602CCA492A4C2A0D007F8AD6 /* FileCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				602CCA472A4C290F007F8AD6 /* ToDoItem.swift */,
+				602CCA492A4C2A0D007F8AD6 /* FileCache.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				602CCA142A4C21EA007F8AD6 /* ViewController.swift in Sources */,
 				602CCA102A4C21EA007F8AD6 /* AppDelegate.swift in Sources */,
 				602CCA482A4C290F007F8AD6 /* ToDoItem.swift in Sources */,
+				602CCA4A2A4C2A0E007F8AD6 /* FileCache.swift in Sources */,
 				602CCA122A4C21EA007F8AD6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
